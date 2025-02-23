@@ -11,7 +11,7 @@ if (!isset($_SESSION['user_id'])) {
     exit;
 }
 
-// Handle product insertion
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $productName = $_POST['product_name'] ?? '';
     $description = $_POST['description'] ?? '';
